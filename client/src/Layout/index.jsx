@@ -95,9 +95,8 @@ function Index({ children }) {
   return (
     <div className='flex min-h-screen'>
       <div
-        className={`w-64 bg-gray-900 text-white ${
-          collapsed ? 'collapsed' : ''
-        } md:overflow-y-auto`}
+        className={`w-64 bg-gray-900 text-white ${collapsed ? 'collapsed' : ''
+          } md:overflow-y-auto`}
       >
         <div className='flex items-center justify-center py-4'>
           <Logo />
@@ -210,9 +209,7 @@ function Index({ children }) {
           </Dropdown>
         </header>
         <main className='p-4'>{children}</main>
-        <footer className='text-center bg-white py-4'>
-          Bhavya Design ©{new Date().getFullYear()} Created by bhavyabhut
-        </footer>
+
       </div>
     </div>
   );
